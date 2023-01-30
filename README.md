@@ -1,43 +1,13 @@
-# Gluons
+### O que são Gluons?
 
-![Gluons](https://raw.githubusercontent.com/gleisonnanet/Gluons/master/gluons.png)
+Gluons são particulas subatômicas responsáveis pela **interação forte**, uma das quatro forças fundamentais da natureza. A interação forte é responsável por manter as partículas subatômicas dentro dos núcleos atômicos e é a força mais forte conhecida. 
 
-Gluons é um framework web desenvolvido com [FastAPI](https://fastapi.tiangolo.com/) e [TypeScript](https://www.typescriptlang.org/) que fornece uma estrutura de pastas organizada e fácil de manter, além de uma integração com [Docker](https://www.docker.com/) e [PostgreSQL](https://www.postgresql.org/).
+### Como os Gluons se relacionam com o desenvolvimento de aplicações web?
 
-## Estrutura de pastas
+Os Gluons são como os "amarradores" ou "cola" que mantêm os elementos do seu projeto web unidos e funcionando de forma coesa, assim como a interação forte mantém as partículas subatômicas dentro dos núcleos atômicos. Usando o framework web **FastAPI** e **TypeScript**, os gluons são representados pelas rotas e controllers que interligam sua aplicação, permitindo que os dados fluam de maneira organizada entre o front-end e o back-end. 
 
-- `src`: contém todo o código fonte do projeto.
-  - `config`: contém arquivos de configuração como o arquivo `.env`.
-  - `entities`: contém as entidades (models) do projeto, cada entidade tem suas próprias pastas com `routes`, `controllers`, `models`, `migrations` e `seeders`.
-  - `main.ts`: arquivo principal do projeto.
-- `tests`: contém os testes unitários do projeto.
-- `docker-compose.yml`: arquivo de configuração do Docker.
-- `Dockerfile`: arquivo de configuração do Docker.
-- `.gitignore`: arquivos e pastas que devem ser ignorados pelo git.
-- `README.md`: arquivo de documentação do projeto.
+Assim como os gluons possuem carga de cor, as rotas e controllers podem ser organizadas e identificadas por meio de suas respectivas rotas e tipos de requisição. A utilização de TypeScript também proporciona maior segurança e tipagem estática, garantindo que sua aplicação esteja sempre funcionando de forma consistente. 
 
-## Como utilizar
+Da mesma forma que a descoberta dos gluons foi fundamental para o desenvolvimento da física quântica, o uso de frameworks como o FastAPI e TypeScript é fundamental para desenvolvimento de aplicações web modernas e escaláveis.
 
-1. Clone o repositório: `git clone https://github.com/gleisonnanet/Gluons.git`
-2. Entre na pasta do projeto: `cd Gluons`
-3. Instale as dependências: `npm install`
-4. Crie o arquivo `.env` com base no arquivo `.env.example`
-5. Inicie o container do Docker: `docker-compose up -d`
-6. Aplique as migrations: `npm run migration:run`
-7. Inicie o projeto: `npm start`
-
-## Contribuições
-
-Sinta-se à vontade para contribuir com o projeto criando issues ou enviando pull requests.
-
-## Licença
-
-Este projeto está licenciado sob a licença [MIT](https://opensource.org/licenses/MIT)
-
-## Ícones
-
-- [FastAPI](https://github.com/tiangolo/fastapi)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Docker](https://www.docker.com/)
-- [PostgreSQL](https://www.postgresql.org/)
-
+ 
